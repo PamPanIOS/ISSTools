@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes/**/*.{h,m,swift,txt}"
+  s.source_files  = "Classes/test/*.{h,m,swift,txt}"
   # s.exclude_files = "Classes/Exclude"
   s.framework = "UIKit"
   s.requires_arc = true
